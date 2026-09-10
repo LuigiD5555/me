@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Node
+node_modules/
+
+# Runtime databases and transient state
+data/me.db*
+tools/workbench/data/workbench.db*
+.me/plugins/browser-context/data/context.db*
+
+# Local runtime artifacts
+*.log
+.DS_Store
